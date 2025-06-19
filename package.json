@@ -1,0 +1,18 @@
+{
+  "name": "vidtube",
+  "version": "1.0.0",
+  "description": "video streaming like app",
+  "keywords": [
+    "nodejs",
+    "mongodb",
+    "express",
+    "backend"
+  ],
+  "license": "ISC",
+  "author": "Ronak",
+  "type": "commonjs",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
