@@ -1,6 +1,6 @@
 import {app} from "./app.js"
 import connectDb from "./db/index.js"
-import {config} from "./utils/config.js"
+import { config } from "./utils/config.js"
 
 const PORT = config.PORT || 8080
 
