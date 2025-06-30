@@ -14,3 +14,4 @@ connectDb()
     .catch(()=>{
         console.log("failed to connect db");
     })
+    
