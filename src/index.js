@@ -1,7 +1,7 @@
-import {app} from "./app"
-import {PORT} from "./utils/config"
+import {app} from "./app.js"
+import {config} from "./utils/config.js"
 
-const PORT = PORT || 8080
+const PORT = config.PORT || 8080
 
 app.listen(PORT,()=>{
     console.log(`listening on the port ${PORT}`);
