@@ -1,7 +1,6 @@
 import {app} from "./app.js"
 import connectDb from "./db/index.js"
 import { config } from "./utils/config.js"
-console.log(config.DB_URL);
 
 
 const PORT = config.PORT || 8080
